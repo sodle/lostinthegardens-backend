@@ -25,6 +25,13 @@ function App() {
         |{" "}
         <a href="https://github.com/sodle/lost_in_the_gardens" target="_blank">
           Source Code (iOS)
+        </a>{" "}
+        |{" "}
+        <a
+          href="https://github.com/sodle/lostinthegardens-backend"
+          target="_blank"
+        >
+          Source Code (website/backend)
         </a>
       </div>
     </>
