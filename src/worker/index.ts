@@ -6,8 +6,8 @@ const app = new Hono<{ Bindings: Env }>();
 app.use(trimTrailingSlash());
 app.get("/api", (c) =>
   c.json({
-    ios: {
-      yorkstreet: {
+    iOS: {
+      yorkStreet: {
         latestShapefile: {
           url: "/api/shapefiles/yorkstreet/1",
           effectiveDate: "2025-09-05",
