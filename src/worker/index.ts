@@ -7,14 +7,14 @@ app.use(trimTrailingSlash());
 app.get("/api", (c) =>
   c.json({
     iOS: {
-      yorkStreet: {
-        latestShapefile: {
+      YorkStreet: {
+        shapeFile: {
           url: "/api/shapefiles/yorkstreet/1",
           effectiveDate: "2025-09-05",
           sha256:
             "3ba314db2b2aa1b2f194e44d3396a72eaf82d1077376d8dbd09c138a705d768b",
         },
-        latestCategoryFile: {
+        categoryFile: {
           url: "/api/category_files/yorkstreet/1",
           effectiveDate: "2025-09-05",
           sha256:
