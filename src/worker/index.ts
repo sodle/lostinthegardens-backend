@@ -39,14 +39,14 @@ app.get("/api/:fileType/:location/:id", (c) => {
     fileType == "shapefiles" &&
     fileIndex < yorkStreetShapefiles.length
   ) {
-    return c.json(yorkStreetShapefiles[fileIndex]);
+    return c.json(yorkStreetShapefiles[fileIndex].default);
   }
   if (
     location == "yorkstreet" &&
     fileType == "category_files" &&
     fileIndex < yorkStreetCategoryFiles.length
   ) {
-    return c.json(yorkStreetCategoryFiles[fileIndex]);
+    return c.json(yorkStreetCategoryFiles[fileIndex].default);
   }
   return c.notFound();
 });
