@@ -22,6 +22,22 @@ app.get("/api", (c) =>
         },
       },
     },
+    Android: {
+      YorkStreet: {
+        shapeFile: {
+          url: "/api/shapefiles/yorkstreet/1",
+          effectiveDate: "2025-09-05",
+          sha256:
+            "3ba314db2b2aa1b2f194e44d3396a72eaf82d1077376d8dbd09c138a705d768b",
+        },
+        categoryFile: {
+          url: "/api/category_files/yorkstreet/1",
+          effectiveDate: "2025-09-05",
+          sha256:
+            "30b3fc44a4e9aaf828c1d5d196b7e26a8eefda9392d2f854b4fa84c0dec37ff1",
+        },
+      },
+    },
   })
 );
 
